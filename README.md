@@ -1,10 +1,12 @@
-# budgy
+# Budgy
 Budget Tracker
 
 [![license](https://img.shields.io/badge/license-None-blue)](https://shields.io)
 
 ## Description
-This is a single page web application for tracking a personal budget.  
+This is a single page web application for tracking a personal budget.
+This application is deployed using Heroku. 
+This application utilizes a service worker, web manifest, and IndexedDB to provide offline functionality. 
 
 ## Table of Contents
 * [Usage](#usage)
@@ -16,6 +18,8 @@ This is a single page web application for tracking a personal budget.
 
 ## Usage
 This application is deployed to Heroku and ready to use. 
+Enter a name for the transaction and amount in the respective fields, and click either 'Add Funds' or 'Subtract Funds' to add an entry. 
+Entries will be graphed and the total will be updated after each entry. 
 
 ## Photo
 ![budgy-screenshot](./public/images/budgy-ss1.png)
